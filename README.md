@@ -18,19 +18,19 @@ This series course help me to understand what is contraint and how a physics eng
 
 <img src="img/PhysicsEngine.png" width="200">
 
-* 1.Update Collision : Update Contact Manifold From Collision Model
-* 2.Compute Island : Compute Island to Solve Constraint(Ignore object if it is sleeping, and no object collide with it)
-* 3.Solve Contact : Impulsed base response, Penetration constraint
-* 4.Update Sleep State : Change the object state if its linear velocity and angular velocity stay at low speed for a period of time
+* Update Collision : Update Contact Manifold From Collision Model
+* Compute Island : Compute Island to Solve Constraint(Ignore object if it is sleeping, and no object collide with it)
+* Solve Contact : Impulsed base response, Penetration constraint
+* Update Sleep State : Change the object state if its linear velocity and angular velocity stay at low speed for a period of time
 
 #### 2. Collision Model
 
 <img src="img/CollisionEngine.png" width="200">
 
-* 1.GJK Algorithm : Check overlap, Get EPA Start Simplex
-* 2.EPA Algorithm : Get Penetration Vector, Penetration Depth
-* 3.Clipping : Get Contact Points By Clipping, Get Contact Manifold
-* 4.Update Contact Points for warm start(Use Distance between Contact Points)
+* GJK Algorithm : Check overlap, Get EPA Start Simplex
+* EPA Algorithm : Get Penetration Vector, Penetration Depth
+* Clipping : Get Contact Points By Clipping, Get Contact Manifold
+* Update Contact Points for warm start(Use Distance between Contact Points)
 
 
 
