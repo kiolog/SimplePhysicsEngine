@@ -16,7 +16,7 @@ This series course help me to understand what is contraint and how a physics eng
 
 #### 1. Physics Model
 
-<img src="img/PhysicsEngine.png" width="300">
+<img src="img/PhysicsEngine.png" width="200">
 
 * 1.Update Collision : Update Contact Manifold From Collision Model
 * 2.Compute Island : Compute Island to Solve Constraint(Ignore object if it is sleeping, and no object collide with it)
@@ -25,7 +25,7 @@ This series course help me to understand what is contraint and how a physics eng
 
 #### 2. Collision Model
 
-<img src="img/CollisionEngine.png" width="300">
+<img src="img/CollisionEngine.png" width="200">
 
 * 1.GJK Algorithm : Check overlap, Get EPA Start Simplex
 * 2.EPA Algorithm : Get Penetration Vector, Penetration Depth
